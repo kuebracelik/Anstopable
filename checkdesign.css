@@ -1,6 +1,5 @@
 @CHARSET "ISO-8859-1";
 
-<<<<<<< HEAD
 .ptop {
 	padding-top: 60px;
 }
@@ -30,13 +29,4 @@
 	height: 60px;
 	padding-top: 12px;
 	padding-right:10px;
-=======
 
-
-.divider-vertical {
-height: 50px;
-margin: 0 9px;
-border-left: 1px solid #F2F2F2;
-border-right: 1px solid #FFF;
->>>>>>> branch 'master' of https://github.com/deryazeynep/Anstopable.git
-}
