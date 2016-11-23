@@ -1,15 +1,32 @@
 @CHARSET "ISO-8859-1";
 
+.ptop {
+	padding-top: 60px;
+}
 
-.ptop 
-	{ padding-top: 105px; }
+.pright {
+	padding-right: 0px;
+}
 
+.pbottom {
+	padding-bottom: 50px;
+}
 
-.pright 
-	{ padding-top: 105px; }
-	
-.pbottom 
-	{ padding-top: 50px; }
-	
-.pleft 
-	{ padding-top: 105px; }
+.pleft {
+	padding-left: 0px;
+}
+
+.center {
+	center;
+}
+
+.imgWidthHeight {
+	width: 40px;
+	height: 40px;
+}
+
+#navheight{
+	height: 60px;
+	padding-top: 12px;
+	padding-right:10px;
+}
