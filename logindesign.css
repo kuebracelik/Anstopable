@@ -1,0 +1,57 @@
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+form {
+	height: 40px;
+	width: 300px;
+}
+
+input {
+	border-radius: 5px;
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: brandon grotesque;
+	font-style: normal;
+	margin-bottom: 10px;
+	border-color: #a1b9ed;
+}
+
+.buttonLos {
+	height: 40px;
+	width: 150px;
+	color: #a1b9ed;
+	background-color: #001a3a;
+	border: solid 3px #001a3a;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: brandon grotesque;
+	font-style: normal;
+	margin-top: 20px
+}
+
+.checkFlieder1 {
+	color: #a1b9ed;
+	font-size: 9 px;
+	font-family: roboto thin;
+	font-style: normal;
+}
+
+.checkNacht {
+	color: #a1b9ed;
+	font-size: 9 px;
+	font-family: roboto thin;
+	font-style: normal;
+}
+
+p {
+	color: #a1b9ed;
+	font-size: 9 px;
+	font-family: roboto thin;
+	font-style: normal;
+}
