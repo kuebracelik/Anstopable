@@ -9,22 +9,21 @@
 	margin-bottom: 6px;
 	border-color: #a1b9ed;
 	border: 3px solid #001a3a;
-	
 }
 
 /*Eingabefeld Benutzername*/
 .field-border {
 	border: 3px solid #bcd2ee;
 	border-radius: 6px;
-	font-familiy: roboto-thin;
+	font-familiy: roboto;
 }
 
 input[type=password]:focus {
-    border: 3px solid #555;
+	border: 3px solid #555;
 }
 
 input[type=text]:focus {
-    border: 3px solid #555;
+	border: 3px solid #555;
 }
 
 /*Login Button LOS*/
@@ -53,18 +52,18 @@ input[type=text]:focus {
 #footerLogincheckFlieder {
 	color: #a1b9ed;
 	font-size: 9 px;
-	font-family: roboto thin;
+	font-family: roboto;
 }
 
 /*Footer checkNacht*/
 #footerLogincheckNacht {
 	color: #001a3a;
 	font-size: 9 px;
-	font-family: roboto thin;
+	font-family: roboto;
 }
 
 /*Icons*/
-.icons{
+.icons {
 	color: #001a3a;
 	width: 200%;
 }
