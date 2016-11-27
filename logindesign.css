@@ -1,61 +1,55 @@
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-form {
-	height: 40px;
-	width: 300px;
-}
-
-input {
+/*Eingabefelder*/
+.inputLogin {
 	border-radius: 5px;
 	height: 40px;
 	width: 300px;
-	border-radius: 5px;
 	font-size: 13px;
-	font-family: brandon grotesque;
+	font-family: brandon-grotesque;
 	font-style: normal;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 	border-color: #a1b9ed;
+	border: 3px solid #001a3a;
 }
 
+/*Eingabefeld Benutzername*/
+.field-border {
+	border: 3px solid #bcd2ee;
+	border-radius: 6px;
+	font-familiy: roboto-thin;
+}
+
+/*Login Button LOS*/
 .buttonLos {
 	height: 40px;
 	width: 150px;
-	color: #a1b9ed;
+	color: #FFFFFF;
 	background-color: #001a3a;
 	border: solid 3px #001a3a;
 	border-radius: 5px;
 	font-size: 13px;
-	font-family: brandon grotesque;
+	font-family: brandon-grotesque;
 	font-style: normal;
 	margin-top: 20px
 }
 
-.checkFlieder1 {
+/*Footer*/
+#footerLogin {
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+/*Footer checkFlieder*/
+#footerLogincheckFlieder {
 	color: #a1b9ed;
 	font-size: 9 px;
 	font-family: roboto thin;
-	font-style: normal;
 }
 
-.checkNacht {
-	color: #a1b9ed;
+/*Footer checkNacht*/
+#footerLogincheckNacht {
+	color: #001a3a;
 	font-size: 9 px;
 	font-family: roboto thin;
-	font-style: normal;
 }
-
-p {
-	color: #a1b9ed;
-	font-size: 9 px;
-	font-family: roboto thin;
-	font-style: normal;
-}
-
-
-
-
