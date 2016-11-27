@@ -9,6 +9,7 @@
 	margin-bottom: 6px;
 	border-color: #a1b9ed;
 	border: 3px solid #001a3a;
+	
 }
 
 /*Eingabefeld Benutzername*/
@@ -60,4 +61,10 @@ input[type=text]:focus {
 	color: #001a3a;
 	font-size: 9 px;
 	font-family: roboto thin;
+}
+
+/*Icons*/
+.icons{
+	color: #001a3a;
+	width: 200%;
 }
