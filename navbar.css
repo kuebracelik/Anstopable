@@ -71,27 +71,55 @@
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/educationalPlan-inactive.png?raw=true);
 }
 
+#educational-plan:hover {
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/educationalPlan-active.png?raw=true);
+}
+
 #achieved-competences {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/achievedCompetences-inactive.png?raw=true);
+}
+
+#achieved-competences:hover {
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/achievedCompetences-active.png?raw=true);
 }
 
 #profile {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/student/superhero-batman-inactive.png?raw=true);
 }
 
+#profile:hover {
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/student/superhero-batman-active.png?raw=true);
+}
+
 #school-profile {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/school/school-inactive.png?raw=true);
+}
+
+#school-profile:hover {
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/school/school-green-active.png?raw=true);
 }
 
 #study-group {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/studyGroup/studyGroup_10+_inactive.png?raw=true);
 }
 
+#study-group:hover{
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/studyGroup/studyGroup_10+_active.png?raw=true);	
+}
+
 #help {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/help-inactive.png?raw=true);
 }
 
+#help:hover {
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/help-active.png?raw=true);
+}
+
 #logout {
 	background-image: url(https://github.com/WAW-WS16/images/blob/master/logout-iactive.png?raw=true);
+}
+
+#logout:hover{
+	background-image: url(https://github.com/WAW-WS16/images/blob/master/logout-active.png?raw=true);
 }
 
