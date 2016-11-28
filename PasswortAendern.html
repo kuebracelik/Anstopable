@@ -6,6 +6,8 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400"
+	rel="stylesheet">
 
 <link href="PasswortAendern.css" rel="stylesheet" type="text/css">
 
@@ -38,45 +40,71 @@ a:link {
 
 
 <body>
-	
-		
+
+
 	<div align="center">
 		<img class="logoPasswortÄndern"
 			src="https://github.com/WAW-WS16/images/blob/master/change-password.png?raw=true">
 	</div>
-	
-	<p id="schriftPasswortÄndern"> PASSWORT ÄNDERN </p>
 
-	
-
-	
-	
-	
-	<!--Eingabefeld aktuelles Passwort-->
-	<div align="center">
-		<a  class="icons"><i class="fa fa-key" aria-hidden="true"></i></a> <input
-			class="field-border inputPasswortÄndern" type="password" name="aktuelles password"
-			required />
-	</div>
-
-	<!--Eingabefeld neues Passwort-->
-	<div align="center">
-		<a class="icons"><i class="fa fa-key" aria-hidden="true"></i></a> <input
-			class="field-border inputPasswortÄndern" type="password" name="neues password"
-			required />
-	</div>
-	
-	<!--Eingabefeld Passwort bestätigen-->
-	<div align="center">
-		<a class="icons"><i class="fa fa-key" aria-hidden="true"></i></a> <input
-			class="field-border inputPasswortÄndern" type="password" name="password bestätigen"
-			required />
-	</div>
+	<p id="schriftPasswortÄndern">PASSWORT ÄNDERN</p>
 
 
-	<div align="center">
-		<input class="buttonÄndern" type="button" name="passwort ändern" value="ÄNDERN" />
-	</div>
+
+
+	<!--Horizontales Formular-->
+	<form class="form-horizontal">
+
+		<!--Eingabefeld aktuelles Passwort-->
+		<div align="center">
+			<div class="form-group">
+				<p style="color: #a1b9ed">
+					<label for="eingabefeldAktuellesPasswort"
+						class="col-sm-2 control-label">AKTUELLES PASSWORT* </label>
+				<div class="col-sm-10">
+					<input class="field-border inputPasswortÄndern" id="eingabefeldAktuellesPasswort" type="password"
+						name="aktuelles password" required />
+
+				</div>
+			</div>
+		</div>
+
+		<!--Eingabefeld neues Passwort-->
+		<div align="center">
+			<div class="form-group">
+				<p style="color: #a1b9ed">
+					<label for="eingabefeldNeuesPasswort"
+						class="col-sm-2 control-label">NEUES PASSWORT* </label> <input
+						class="field-border inputPasswortÄndern" id="eingabefeldNeuesPasswort" type="password"
+						name="neues password" required />
+			</div>
+		</div>
+
+		<!--Eingabefeld Passwort bestätigen-->
+		<div align="center">
+			<div class="form-group">
+				<p style="color: #a1b9ed">
+					<label for="eingabefeldPasswortBestätigen"
+						class="col-sm-2 control-label">PASSWORT BESTÄTIGUNG*</label>
+				<div class="col-sm-10">
+
+					<input class="field-border inputPasswortÄndern" id="eingabefeldPasswortBestätigen" type="password"
+						name="password bestätigen" required />
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<div align="center">
+			<input class="buttonÄndern" type="button" name="passwort ändern"
+				value="ÄNDERN" />
+		</div>
+
+
+
+	</form>
 
 
 
