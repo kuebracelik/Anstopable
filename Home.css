@@ -1,22 +1,9 @@
 @CHARSET "ISO-8859-1";
 
-.illu-right{
-	background-image: url(https://github.com/WAW-WS16/images/blob/master/illustrations/illustrationRight.png?raw=true);
-}
-
-.illu-left{
-	background: url(https://github.com/WAW-WS16/images/blob/master/illustrations/illustrationLeft.png?raw=true);
-		
-}
-
-.bubble{
-	background-image:
-}
-
-.bubbletext{
+.background {
+	background: #f29db7
 	
 }
-
 
 
 
